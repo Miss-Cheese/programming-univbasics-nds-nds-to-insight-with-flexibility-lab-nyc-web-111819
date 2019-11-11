@@ -83,9 +83,18 @@ def movies_with_directors_set(source)
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
 
-  puts "1----------------"
-  puts movies_with_director_key
-  puts "2----------------"
+  index = 0
+
+  while index < source.count do
+    puts "1-----------------"
+    directors_movie_data_hash = source[index]
+    
+    puts "2-----------------"
+    index += 1
+  end
+
+  movies_with_director_key
+
 end
 
 # ----------------    End of Your Code Region --------------------
