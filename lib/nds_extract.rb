@@ -91,9 +91,9 @@ def movies_with_directors_set(source)
     directors_movie_data_hash = source[index]
     director_name = directors_movie_data_hash[:name]
     director_movies = directors_movie_data_hash[:movies]
-    puts "1-----------------"
-    puts new_movie_dir_array << movies_with_director_key(director_name, director_movies)
-    puts "2-----------------"
+    # puts "1-----------------"
+    new_movie_dir_array << movies_with_director_key(director_name, director_movies)
+    # puts "2-----------------"
 
     index += 1
   end
