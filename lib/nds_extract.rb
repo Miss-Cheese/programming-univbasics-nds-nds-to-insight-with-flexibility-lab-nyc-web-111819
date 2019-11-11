@@ -74,7 +74,8 @@ def gross_per_studio(collection)
 
     if studio_sums_hash[studio]
       studio_sums_hash[studio] += worldwide_gross
-    else 
+    else
+      studio_sums_hash[studio] + worldwide_gross
     end
     index += 1
   end
