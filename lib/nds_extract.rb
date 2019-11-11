@@ -98,6 +98,7 @@ def movies_with_directors_set(source)
     index += 1
   end
 
+new_movie_dir_array
 
 
 end
