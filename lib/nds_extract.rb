@@ -84,6 +84,7 @@ def movies_with_directors_set(source)
   # to have a :director_name key added to it.
 
   index = 0
+  new_movie_dir_array = []
 
   while index < source.count do
 
@@ -91,7 +92,7 @@ def movies_with_directors_set(source)
     director_name = directors_movie_data_hash[:name]
     director_movies = directors_movie_data_hash[:movies]
     puts "1-----------------"
-    puts movies_with_director_key(director_name, director_movies)
+    puts new_movie_dir_array << movies_with_director_key(director_name, director_movies)
     puts "2-----------------"
 
     index += 1
