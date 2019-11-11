@@ -86,15 +86,18 @@ def movies_with_directors_set(source)
   index = 0
 
   while index < source.count do
-    puts "1-----------------"
+
     directors_movie_data_hash = source[index]
-    puts director_name = directors_movie_data_hash[:name]
-    puts director_movies = directors_movie_data_hash[:movies]
+    director_name = directors_movie_data_hash[:name]
+    director_movies = directors_movie_data_hash[:movies]
+    puts "1-----------------"
+    puts movies_with_director_key(director_name, director_movies)
     puts "2-----------------"
+
     index += 1
   end
 
-  movies_with_director_key
+
 
 end
 
