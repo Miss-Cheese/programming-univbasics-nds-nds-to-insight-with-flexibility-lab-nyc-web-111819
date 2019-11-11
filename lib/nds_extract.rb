@@ -68,11 +68,11 @@ def gross_per_studio(collection)
 # check if something is in there
 
   while index < collection.count do
-    
+
     studio = collection[index][:studio]
     worldwide_gross = collection[index][:worldwide_gross]
-  
-    if studio_sums_hash[studio] 
+
+    if studio_sums_hash[studio]
       studio_sums_hash[studio] += worldwide_gross
     else 
     end
