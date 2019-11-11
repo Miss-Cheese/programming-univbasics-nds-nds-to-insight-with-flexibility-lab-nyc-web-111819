@@ -97,7 +97,6 @@ def movies_with_directors_set(source)
 
 new_movie_dir_array
 
-
 end
 
 # ----------------    End of Your Code Region --------------------
